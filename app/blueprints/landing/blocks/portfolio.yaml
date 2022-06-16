@@ -1,0 +1,9 @@
+uuid: 55615b16-120f-4be9-9429-6ae6dabc523c
+name: Scoreboard Metrics
+type: mixin
+handle: Blocks\Portfolio
+
+fields:
+    tag_line:
+        label: Tag Line
+        type: text

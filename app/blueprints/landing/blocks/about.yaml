@@ -1,0 +1,45 @@
+uuid: 015fde4b-23d8-4ba3-8e78-9c6ebfb5fcf7
+name: Paragraph Block
+type: mixin
+handle: Blocks\About
+
+fields:
+    tag_line:
+        label: Tag Line
+        type: text
+        tab: Bio Data
+
+    bio_data:
+        label: Bio Data
+        type: repeater
+        span: auto
+        tab: Bio Data
+        form:
+            fields:
+                item:
+                    label: Text
+                    type: text
+                    span: auto
+                value:
+                    label: Text
+                    type: text
+                    span: auto
+
+    image:
+        label: Image
+        type: mediafinder
+        mode: image
+        maxItems: 1
+        tab: Bio Data
+
+    download_cv_text:
+        label: Download CV Text
+        type: text
+        tab: Bio Data
+
+    resume:
+        label: Resume
+        type: mediafinder
+        mode: file
+        maxItems: 1
+        tab: Bio Data

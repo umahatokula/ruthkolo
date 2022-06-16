@@ -1,0 +1,54 @@
+uuid: 21aad99b-d3c6-4f5e-b271-15471c81e11b
+name: Homepage
+type: mixin
+handle: Blocks\Home
+
+fields:
+
+    image:
+        label: Image
+        type: mediafinder
+        mode: image
+        maxItems: 1
+        span: auto
+        
+    heading:
+        label: Top Text
+        type: text
+        span: auto
+
+    scrolling_text:
+        label: Scrolling Text
+        type: repeater
+        span: auto
+        form:
+            fields:
+                text:
+                    label: Text
+                    type: text
+                    span: full
+        
+    paragraph:
+        label: Paragraph
+        type: richeditor
+        span: auto
+        
+    first_button_text:
+        label: First button text
+        type: text
+        span: auto
+        
+    first_button_link:
+        label: First button link
+        type: text
+        span: auto
+        
+    second_button_text:
+        label: Second button text
+        type: text
+        span: auto
+        
+    second_button_link:
+        label: Second button link
+        type: text
+        span: auto

@@ -1,0 +1,42 @@
+description = "Default layout"
+
+[resources]
+less[] = "layouts/home.less"
+==
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {% partial 'site/meta' %}
+    {% partial 'site/css' %}
+
+</head>
+
+<body class="dark fullscreendark">
+    <div class="page">
+
+        <!-- Header Starts -->
+
+        {% partial 'site/header' %}
+
+        <!-- Header Ends -->
+        <!-- Main Content Starts -->
+        <main id="main">
+
+            <!-- Back To Home Starts [ONLY MOBILE] -->
+            <span class="back-mobile" id="back-mobile"><i class="fa fa-arrow-left"></i></span>
+            <!-- Back To Home Ends [ONLY MOBILE] -->
+
+            {% page %}
+
+        </main>
+    </div>
+    <!-- Main Content Ends -->
+
+    {% partial 'site/js' %}
+
+</body>
+
+
+</html>

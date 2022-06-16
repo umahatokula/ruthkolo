@@ -1,0 +1,13 @@
+uuid: da034c4f-0e24-4906-94b9-66b26c0549c9
+name: Detailed Block
+type: mixin
+handle: Blocks\Contact
+
+fields:
+    tag_line:
+        label: Tag Line
+        type: text
+
+    paragraph:
+        label: Paragraph
+        type: textarea
