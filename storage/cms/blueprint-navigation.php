@@ -78,6 +78,18 @@
       'description' => NULL,
       'permissionCode' => 'tailor.entry.edcd102e05254e4db07e633ae6c18db6',
     ),
+    '9d1f80aa-b5f8-4402-b9ff-0f7de256a941' => 
+    array (
+      'uuid' => '9d1f80aa-b5f8-4402-b9ff-0f7de256a941',
+      'handle' => 'MainMenu',
+      'hasPrimary' => false,
+      'code' => 'entry_main_menu',
+      'url' => 'tailor/entries/main_menu',
+      'mode' => 'content',
+      'label' => 'MainMenu',
+      'description' => NULL,
+      'permissionCode' => 'tailor.entry.9d1f80aab5f84402b9ff0f7de256a941',
+    ),
     '89724a55-eacf-48a5-97c9-a041cea8c8b1' => 
     array (
       'icon' => 'icon-magic',

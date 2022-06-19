@@ -86,6 +86,39 @@
       ),
     ),
   ),
+  '9d1f80aa-b5f8-4402-b9ff-0f7de256a941' => 
+  array (
+    'name' => 'MainMenu',
+    'handle' => 'MainMenu',
+    'contentUuid' => '9d1f80aa-b5f8-4402-b9ff-0f7de256a941',
+    'fields' => 
+    array (
+      'menu_items' => 
+      array (
+        'label' => 'Menu Items',
+        'type' => 'repeater',
+        'span' => 'full',
+        'form' => 
+        array (
+          'fields' => 
+          array (
+            'item' => 
+            array (
+              'label' => 'Menu Name',
+              'type' => 'text',
+              'span' => 'auto',
+            ),
+            'value' => 
+            array (
+              'label' => 'URL',
+              'type' => 'text',
+              'span' => 'auto',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
   '89724a55-eacf-48a5-97c9-a041cea8c8b1' => 
   array (
     'name' => 'Education',

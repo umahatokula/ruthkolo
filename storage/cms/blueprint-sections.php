@@ -128,6 +128,42 @@
     ),
     'handleSlug' => 'blog_post',
   ),
+  '9d1f80aa-b5f8-4402-b9ff-0f7de256a941' => 
+  array (
+    'uuid' => '9d1f80aa-b5f8-4402-b9ff-0f7de256a941',
+    'handle' => 'MainMenu',
+    'type' => 'single',
+    'name' => 'MainMenu',
+    'drafts' => true,
+    'fields' => 
+    array (
+      'menu_items' => 
+      array (
+        'label' => 'Menu Items',
+        'type' => 'repeater',
+        'span' => 'full',
+        'form' => 
+        array (
+          'fields' => 
+          array (
+            'item' => 
+            array (
+              'label' => 'Menu Name',
+              'type' => 'text',
+              'span' => 'auto',
+            ),
+            'value' => 
+            array (
+              'label' => 'URL',
+              'type' => 'text',
+              'span' => 'auto',
+            ),
+          ),
+        ),
+      ),
+    ),
+    'handleSlug' => 'main_menu',
+  ),
   '89724a55-eacf-48a5-97c9-a041cea8c8b1' => 
   array (
     'uuid' => '89724a55-eacf-48a5-97c9-a041cea8c8b1',

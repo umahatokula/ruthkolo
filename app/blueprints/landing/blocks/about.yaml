@@ -9,6 +9,21 @@ fields:
         type: text
         tab: Bio Data
 
+    lead_text_1:
+        label: Lead Text 1
+        type: text
+        tab: Bio Data
+
+    lead_text_2:
+        label: Lead Text 2
+        type: text
+        tab: Bio Data
+
+    paragraph:
+        label: Paragraph
+        type: richeditor
+        tab: Bio Data
+
     bio_data:
         label: Bio Data
         type: repeater
@@ -43,3 +58,8 @@ fields:
         mode: file
         maxItems: 1
         tab: Bio Data
+
+    years_of_experience:
+        label: Years of Experience
+        type: text
+        span: auto

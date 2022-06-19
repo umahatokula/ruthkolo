@@ -150,6 +150,24 @@
         'type' => 'text',
         'tab' => 'Bio Data',
       ),
+      'lead_text_1' => 
+      array (
+        'label' => 'Lead Text 1',
+        'type' => 'text',
+        'tab' => 'Bio Data',
+      ),
+      'lead_text_2' => 
+      array (
+        'label' => 'Lead Text 2',
+        'type' => 'text',
+        'tab' => 'Bio Data',
+      ),
+      'paragraph' => 
+      array (
+        'label' => 'Paragraph',
+        'type' => 'richeditor',
+        'tab' => 'Bio Data',
+      ),
       'bio_data' => 
       array (
         'label' => 'Bio Data',
@@ -196,6 +214,12 @@
         'mode' => 'file',
         'maxItems' => 1,
         'tab' => 'Bio Data',
+      ),
+      'years_of_experience' => 
+      array (
+        'label' => 'Years of Experience',
+        'type' => 'text',
+        'span' => 'auto',
       ),
     ),
     'handleSlug' => 'blocks_about',
